@@ -4,7 +4,7 @@ import { IoIosArrowDown } from 'react-icons/io';
 
 const Header = () => {
     return (
-        <div className='flex flex-row justify-between mx-24 my-8'>
+        <div className='flex flex-row justify-between my-8'>
             {/* Quaapay Logo */}
             <div>
                 <img src={logo} className='h-16 w-44' alt='quaapay'/>
@@ -12,7 +12,7 @@ const Header = () => {
 
             {/* Nav Links */}
             <div>
-                <nav className='flex flex-row justify-between list-none text-lg tracking-wide font-medium mt-4 px-8 space-x-12'>
+                <nav className='flex flex-row justify-between list-none text-lg tracking-wide font-medium mt-4 px-8 space-x-14 cursor-pointer'>
                     <li className='h-16'>Home</li>
                     <li className='h-16'>About</li>
                     <li className='h-16'>Contact</li>
@@ -23,7 +23,7 @@ const Header = () => {
             </div>
 
             {/* Get Application Button */}
-            <div className='mt-3 h-12 py-3 px-8 border text-[#f04d07] border-[#f04d07] rounded-lg font-medium'>
+            <div className='mt-3 h-12 py-3 px-8 border text-[#f04d07] border-[#f04d07] rounded-lg font-medium cursor-pointer'>
                 <button>Get App</button>
             </div>
         </div>
