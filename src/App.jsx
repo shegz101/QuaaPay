@@ -1,12 +1,10 @@
 import './App.css';
-import Header from './components/Header';
-import Hero from './components/Hero';
+import Landing from './components/Landing';
 
 function App() {
   return (
-    <div className='mx-24 overflow-x-hidden'>
-      <Header/>
-      <Hero/>
+    <div className='overflow-x-hidden mt-5'>
+      <Landing/>
     </div>
   )
 }

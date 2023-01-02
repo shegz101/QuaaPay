@@ -1,30 +1,27 @@
 import React from 'react';
-import logo from '../assets/logo.png';
-import { IoIosArrowDown } from 'react-icons/io';
+import logo from "../assets/logo.png";
 
 const Header = () => {
     return (
-        <div className='flex flex-row justify-between my-8'>
+        <div className='flex flex-row justify-between bg-[#000000] w-[60%] ml-[20%] mr-[20%] h-14 
+        rounded-[40px] items-center fixed z-20'>
             {/* Quaapay Logo */}
-            <div>
-                <img src={logo} className='h-16 w-44' alt='quaapay'/>
-            </div>
-
-            {/* Nav Links */}
-            <div>
-                <nav className='flex flex-row justify-between list-none text-lg tracking-wide font-medium mt-4 px-8 space-x-14 cursor-pointer'>
-                    <li className='h-16'>Home</li>
-                    <li className='h-16'>About</li>
-                    <li className='h-16'>Contact</li>
-                    <li className='h-16'>FAQ</li>
-                    {/* <li className='h-16'>Blog</li> */}
-                    <li className='h-16 flex flex-row'>Legal <IoIosArrowDown className='mt-1.5 ml-2'/></li>
+            <div className='flex flex-row space-x-8 pl-4'>
+                <div className='pt-3.5'>
+                    <img className='h-5' src={logo} alt="logo"/>
+                </div>
+                <nav className="text-[#FFFFFF] font-semibold mb-3 pt-[14px]">
+                    <ul className='flex flex-row space-x-4 text-[13px]'>
+                        <li>Community</li>
+                        <li>Features</li>
+                        <li>Docs</li>
+                        <li>Terms & policy</li>
+                    </ul>
                 </nav>
             </div>
 
-            {/* Get Application Button */}
-            <div className='mt-3 h-12 py-3 px-8 border text-[#f04d07] border-[#f04d07] rounded-lg font-medium cursor-pointer'>
-                <button>Get App</button>
+            <div className='pr-2'>
+                <button className='bg-[#4e4e4e] h-10 rounded-[41px] w-40 opacity-95 text-[14px] text-[#FFFFFF]'>Download app</button>
             </div>
         </div>
     )
