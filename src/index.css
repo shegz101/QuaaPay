@@ -2,3 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+.ask_us_segment {
+    top: 0;
+    z-index: 2;
+    height: 350px;
+    /* object-fit: contain; */
+    color: white;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
