@@ -12,6 +12,7 @@ import advertise from "../assets/advertise.png";
 import cash from "../assets/cash.png";
 import { google } from "../assets/index";
 import { apple } from "../assets/index";
+import Footer from "./Footer";
 
 const Landing = () => {
     return (
@@ -26,7 +27,7 @@ const Landing = () => {
                     <div className="mt-[180px] flex flex-col">
                         <div className="text-[36px] font-black text-[#000000] leading-9">
                             <p>We help Advertise,</p> 
-                            <p>influence, <span className="text-[#0014CC]">pay</span>, receive, and sell.</p>
+                            <p>Influence, <span className="text-[#0014CC]">Pay</span>, Receive, and Sell.</p>
                         </div>
                         <div className="w-[90%] leading-6 pt-5 font-normal">
                             <p className="text-[20px]">Quaapay can be best described as an online money-making 
@@ -38,7 +39,7 @@ const Landing = () => {
                         </div>
                         <div className="flex flex-row">
                             <div className="bg-[#000000] mt-5 h-[70px] text-[#FFFFFF] rounded-[18px] w-[200px] flex flex-row items-center justify-center pr-2 pl-2">
-                                <button className="text-[18px] font-semibold pr-2">Start advertising</button>
+                                <button className="text-[18px] font-semibold pr-2" disabled>Start advertising</button>
                                 <p className="bg-[#FFFFFF] rounded-full h-4 w-4 mt-1"></p>
                             </div>
 
@@ -116,7 +117,7 @@ const Landing = () => {
 
                     <div className="flex flex-row">
                         <div className="bg-[#000000] mt-5 h-[70px] text-[#FFFFFF] rounded-[18px] w-[200px] flex flex-row items-center justify-center pr-2 pl-2">
-                            <button className="text-[18px] font-semibold pr-2">Start selling</button>
+                            <button className="text-[18px] font-semibold pr-2" disabled>Start selling</button>
                             <p className="bg-[#FFFFFF] rounded-full h-4 w-4 mt-1 ml-8"></p>
                         </div>
 
@@ -161,7 +162,7 @@ const Landing = () => {
 
                         <div className="bg-[#000000] mt-5 h-[70px] text-[#FFFFFF] rounded-[18px] w-[200px] flex flex-row items-center justify-center pr-2 pl-2 space-x-5">
                             <p className="bg-[#FFFFFF] rounded-full h-4 w-4"></p>
-                            <button className="text-[18px] font-semibold">Download app</button>
+                            <button className="text-[18px] font-semibold" disabled>Download app</button>
                         </div>
                     </div>
                 </div>
@@ -183,7 +184,7 @@ const Landing = () => {
 
                     <div className="flex flex-row">
                         <div className="bg-[#000000] mt-5 h-[70px] text-[#FFFFFF] rounded-[18px] w-[200px] flex flex-row items-center justify-center pr-2 pl-2">
-                            <button className="text-[18px] font-semibold pr-2">Download app</button>
+                            <button className="text-[18px] font-semibold pr-2" disabled>Download app</button>
                             <p className="bg-[#FFFFFF] rounded-full h-4 w-4 mt-1 ml-8"></p>
                         </div>
 
@@ -213,6 +214,8 @@ const Landing = () => {
                     <img src={apple} alt="apple store"/>
                 </div>
             </div>
+
+            <Footer/>
         </div>
     )
 }

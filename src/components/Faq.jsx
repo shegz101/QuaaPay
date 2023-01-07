@@ -11,12 +11,11 @@ const Faq = () => {
 
             {/* section for the landing image */}
             <div className="w-[70%] mt-10">
-                <header className="relative z-20 text-[#FFFFFF] h-[350px] rounded-[45px] pt-[250px]" style={{backgroundSize: '',
+                <header className="relative text-[#FFFFFF] h-[350px] rounded-[45px] pt-[250px]" style={{backgroundSize: '',
                 backgroundImage: `url('${ask}')`,
                 backgroundPosition:'center center'
-            }}>
-                    
-                    <div className="flex flex-row justify-between h-16 
+                }}>
+                    <div className="flex flex-row justify-between h-16 ask-input 
                     items-center z-20h-[50px] w-[80%] ml-[10%] mr-[10%] absolute bg-[#FFFFFF] rounded-[20px]">
                         <input type="text" placeholder="Ask us a question?" className="h-full outline-none rounded-l-[20px] w-70%]" />
                         <button className="bg-[#000000] text-[#FFFFFF] rounded-[20px] h-full w-[30%]">
