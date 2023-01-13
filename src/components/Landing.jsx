@@ -2,8 +2,8 @@ import React from "react";
 import Header from "./Header";
 import Faq from "./Faq";
 import Densin1 from "../assets/densin1.png";
-import Densin3 from "../assets/dIagonalicon3.png";
 import Densin2 from "../assets/dIagonalicon2.png";
+import Densin3 from "../assets/diagonalicon3.png";
 import navigator from "../assets/brokendash.png";
 import mobilescreen from "../assets/mobilesample.png";
 import influencer from "../assets/influencer.gif";
@@ -53,7 +53,7 @@ const Landing = () => {
                             </div>
 
                             <div className="rotate-45">
-                                <img src={Densin3} alt="densin-2" className="justify-end"/>
+                                <img src={Densin3} alt="densin-3" className="justify-end"/>
                             </div>
                         </div>
                     </div>
