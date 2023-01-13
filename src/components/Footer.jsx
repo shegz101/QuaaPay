@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/logo2.png";
+import logo from "../assets/logo.png";
 import { google } from "../assets/index";
 import { apple } from "../assets/index";
 
@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="flex flex-row w-full space-x-[100px]">
                 {/* column 1 Footer */}
                 <div className="w-[10%]">
-                    <img className='h-5 text-[#000000]' src={logo} alt="QuaaPay Logo"/>
+                    <img className='h-10 w-[100px] text-[#000000] mt-[-10px]' src={logo} alt="QuaaPay Logo"/>
                 </div>
 
                 {/* column 2 Footer */}
@@ -85,7 +85,7 @@ const Footer = () => {
                     </div>
 
                     <div className="flex flex-col mt-[40px] space-y-2">
-                        <div className="flex flex-row space-x-2">
+                        <div className="flex flex-row space-x-2 cursor-pointer">
                             <img src={google} alt="Google play store"/>
                             <img src={apple} alt="apple store"/>
                         </div>
