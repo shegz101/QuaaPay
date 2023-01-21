@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/logo.png";
+import logo from "../assets/footer-logo.png";
 import { google } from "../assets/index";
 import { apple } from "../assets/index";
 
@@ -17,37 +17,37 @@ const Footer = () => {
                     {/* Row 1 Column 2 Footer */}
                     <div className="grid grid-cols-5 gap-[100px]">
                         <div>
-                            <p className="text-[#5E5E5E]">Community</p>
+                            <p className="text-[#5E5E5E] hover:opacity-70">Community</p>
                             <ul className="text-[#000000]">
-                                <li>Developers</li>
-                                <li>Forum</li>
+                                <li className="hover:opacity-60">Developers</li>
+                                <li className="hover:opacity-60">Forum</li>
                             </ul>
                         </div>
                         <div>
-                            <p className="text-[#5E5E5E]">About us</p>
+                            <p className="text-[#5E5E5E] hover:opacity-70">About us</p>
                             <ul className="text-[#000000]">
-                                <li>Security</li>
-                                <li>Privacy</li>
-                                <li>Cookie Policy</li>
-                                <li>Terms & Policy</li>
-                                <li>Jobs</li>
+                                <li className="hover:opacity-60">Security</li>
+                                <li className="hover:opacity-60">Privacy</li>
+                                <li className="hover:opacity-60">Cookie Policy</li>
+                                <li className="hover:opacity-60">Terms & Policy</li>
+                                <li className="hover:opacity-60">Jobs</li>
                             </ul>
                         </div>
                         <div>
-                            <p className="text-[#5E5E5E]">Using QuaaPay</p>
+                            <p className="text-[#5E5E5E] hover:opacity-70">Using QuaaPay</p>
                             <ul className="text-[#000000]">
-                                <li>FAQ</li>
-                                <li>Payment and Billing</li>
-                                <li>Sign-up sign-up help</li>
-                                <li>How to Transfer</li>
-                                <li>How to Advertise</li>
+                                <li className="hover:opacity-60">FAQ</li>
+                                <li className="hover:opacity-60">Payment and Billing</li>
+                                <li className="hover:opacity-60">Sign-up sign-up help</li>
+                                <li className="hover:opacity-60">How to Transfer</li>
+                                <li className="hover:opacity-60">How to Advertise</li>
                             </ul>
                         </div>
                         <div>
-                            <p className="text-[#5E5E5E]">For Individuals</p>
+                            <p className="text-[#5E5E5E] hover:opacity-70">For Individuals</p>
                             <ul className="text-[#000000]">
-                                <li>Trust Guide</li>
-                                <li>Solutions</li>
+                                <li className="hover:opacity-60" >Trust Guide</li>
+                                <li className="hover:opacity-60">Solutions</li>
                             </ul>
                         </div>
                     </div>
@@ -55,31 +55,31 @@ const Footer = () => {
                     {/* Row 2 column 2 Footer */}
                     <div className="grid grid-cols-5 gap-[100px] mt-6">
                         <div className="">
-                            <p className="text-[#5E5E5E]">Community</p>
+                            <p className="text-[#5E5E5E] hover:opacity-70">Community</p>
                             <ul className="text-[#000000]">
-                                <li>Twitter</li>
-                                <li>Facebook</li>
-                                <li>YouTube</li>
-                                <li>Tiktok</li>
-                                <li>LinkedIn</li>
+                                <li className="hover:opacity-60">Twitter</li>
+                                <li className="hover:opacity-60">Facebook</li>
+                                <li className="hover:opacity-60">YouTube</li>
+                                <li className="hover:opacity-60">Tiktok</li>
+                                <li className="hover:opacity-60">LinkedIn</li>
                             </ul>
                         </div>
                         <div className="">
-                            <p className="text-[#5E5E5E]">Productivity</p>
+                            <p className="text-[#5E5E5E] hover:opacity-70">Productivity</p>
                             <ul className="text-[#000000]">
-                                <li>Tekki</li>
-                                <li>web Tree</li>
-                                <li>Number Up</li>
-                                <li>Gist Me</li>
+                                <li className="hover:opacity-60">Tekki</li>
+                                <li className="hover:opacity-60">web Tree</li>
+                                <li className="hover:opacity-60">Number Up</li>
+                                <li className="hover:opacity-60">Gist Me</li>
                             </ul>
                         </div>
                         <div className="">
-                            <p className="text-[#5E5E5E]">Ads Space</p>
+                            <p className="text-[#5E5E5E] hover:opacity-70">Ads Space</p>
                             <ul className="text-[#000000]">
-                                <li>Advertise</li>
-                                <li>Promote Business</li>
-                                <li>Email Forwarder Promotion</li>
-                                <li>Ads Space</li>
+                                <li className="hover:opacity-60">Advertise</li>
+                                <li className="hover:opacity-60">Promote Business</li>
+                                <li className="hover:opacity-60">Email Forwarder Promotion</li>
+                                <li className="hover:opacity-60">Ads Space</li>
                             </ul>
                         </div>
                     </div>
