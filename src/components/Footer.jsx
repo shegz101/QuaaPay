@@ -6,16 +6,16 @@ import { apple } from "../assets/index";
 const Footer = () => {
     return (
         <div className="w-full mr-[5%] ml-[5%] h-max pt-10 pb-10">
-            <div className="flex flex-row w-full space-x-[100px]">
+            <div className="flex xs:flex-col w-full space-x-[100px]">
                 {/* column 1 Footer */}
-                <div className="w-[10%]">
+                <div className="w-[10%] xs:w-[80%]">
                     <img className='h-10 w-[100px] text-[#000000] mt-[-10px]' src={logo} alt="QuaaPay Logo"/>
                 </div>
 
                 {/* column 2 Footer */}
                 <div className="cursor-pointer font-black flex flex-col w-[90%]">
                     {/* Row 1 Column 2 Footer */}
-                    <div className="grid grid-cols-5 gap-[100px]">
+                    <div className="grid grid-cols-5 xs:flex xs:flex-col xt:gap-[100px]">
                         <div>
                             <p className="text-[#5E5E5E] hover:opacity-70">Community</p>
                             <ul className="text-[#000000]">
@@ -53,7 +53,7 @@ const Footer = () => {
                     </div>
 
                     {/* Row 2 column 2 Footer */}
-                    <div className="grid grid-cols-5 gap-[100px] mt-6">
+                    <div className="grid grid-cols-5 xs:flex xs:flex-col gap-[100px] mt-6">
                         <div className="">
                             <p className="text-[#5E5E5E] hover:opacity-70">Community</p>
                             <ul className="text-[#000000]">
