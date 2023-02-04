@@ -6,16 +6,16 @@ import { apple } from "../assets/index";
 const Footer = () => {
     return (
         <div className="w-full mr-[5%] ml-[5%] h-max pt-10 pb-10">
-            <div className="flex xs:flex-col w-full space-x-[100px]">
+            <div className="flex xs:flex-col w-full xt:space-x-[100px]">
                 {/* column 1 Footer */}
-                <div className="w-[10%] xs:w-[80%]">
+                <div className="w-[10%] xs:w-[90%] xs:ml-[-3%]">
                     <img className='h-10 w-[100px] text-[#000000] mt-[-10px]' src={logo} alt="QuaaPay Logo"/>
                 </div>
 
                 {/* column 2 Footer */}
-                <div className="cursor-pointer font-black flex flex-col w-[90%]">
+                <div className="cursor-pointer font-black flex flex-col w-[90%] xs:mt-6">
                     {/* Row 1 Column 2 Footer */}
-                    <div className="grid grid-cols-5 xs:flex xs:flex-col xt:gap-[100px]">
+                    <div className="grid grid-cols-5 xs:flex xs:flex-col xt:gap-[100px] xs:space-y-6 mt-6">
                         <div>
                             <p className="text-[#5E5E5E] hover:opacity-70">Community</p>
                             <ul className="text-[#000000]">
@@ -53,7 +53,7 @@ const Footer = () => {
                     </div>
 
                     {/* Row 2 column 2 Footer */}
-                    <div className="grid grid-cols-5 xs:flex xs:flex-col gap-[100px] mt-6">
+                    <div className="grid grid-cols-5 xs:flex xs:flex-col xt:gap-[100px] mt-6 space-y-6">
                         <div className="">
                             <p className="text-[#5E5E5E] hover:opacity-70">Community</p>
                             <ul className="text-[#000000]">
@@ -86,12 +86,12 @@ const Footer = () => {
 
                     <div className="flex flex-col mt-[40px] space-y-2">
                         <div className="flex flex-row space-x-2 cursor-pointer">
-                            <img src={google} alt="Google play store"/>
-                            <img src={apple} alt="apple store"/>
+                            <img src={google} className="xs:w-[135px]" alt="Google play store"/>
+                            <img src={apple} className="xs:w-[120px]" alt="apple store"/>
                         </div>
 
                         <div>
-                            <p className="text-[#7D7D7D] font-black">@2023 QuaaPay • A ConsenSys Formation</p>
+                            <p className="text-[#7D7D7D] font-black">Ⓒ2023 QuaaPay • A ConsenSys Formation</p>
                         </div>
                     </div>
                 </div>
