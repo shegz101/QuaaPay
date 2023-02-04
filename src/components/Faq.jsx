@@ -15,8 +15,8 @@ const Faq = () => {
                 backgroundImage: `url('${ask}')`,
                 backgroundPosition:'center center'
                 }}>
-                    <div className="flex justify-between h-16 ask-input xs:text-center 
-                    items-center z-20 w-[80%] xs:w-[90%] xs:items-center ml-[10%] mr-[10%] xs:mr-[5%] xs:ml-[5%] absolute bg-[#FFFFFF] rounded-[20px]">
+                    <div className="flex justify-between xs:justify-center h-16 ask-input xs:text-center 
+                    items-center z-20 w-[80%] xs:w-[90%] ml-[10%] mr-[10%] xs:mr-[5%] xs:ml-[5%] absolute bg-[#FFFFFF] rounded-[20px]">
                         <input type="text" placeholder="Ask us a question?" className="xs:hidden h-full outline-none rounded-l-[20px] w-70%]" />
                         <button className="bg-[#000000] text-[#FFFFFF] rounded-[20px] h-full w-[30%] xs:hidden">
                             send

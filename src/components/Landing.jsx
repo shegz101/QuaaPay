@@ -19,7 +19,7 @@ const Landing = () => {
     return (
         <div>
             <Header/>
-            <div className="flex flex-row xs:flex-col Xs-w-[90%] xs:ml-[4%] xs:mr-[2%]">
+            <div className="flex flex-row xs:flex-col Xs:w-[95%] xs:ml-[5%] xs:mr-[3.5%]">
                 <div className="flex flex-row">
                     <div className="mt-20 w-[500px] xs:hidden">
                         <img className="" src={Densin1} alt="Densin"/>
@@ -109,7 +109,7 @@ const Landing = () => {
             </div>
 
             {/* Buy and Sell SectiOn */}
-            <div className="flex xs:flex-col-reverse w-[90%] xt:space-x-3">
+            <div className="flex xs:flex-col-reverse w-[90%] xs:w-[95%] xt:space-x-3">
                 <div className="xs:hidden">
                     <img src={Densin1} alt="Densin1"/>
                 </div>
@@ -144,7 +144,7 @@ const Landing = () => {
             </div>
 
             {/* Advertise Section */}
-            <div className="flex xs:flex-col w-[80%] xt:space-x-3 xt:ml-[10%] xs:ml-[5%] xs:mr-[3.5%]">
+            <div className="flex xs:flex-col w-[80%] xs:w-[95%] xt:space-x-3 xt:ml-[10%] xs:ml-[5%] xs:mr-[3.5%]">
                 <div>
                     <img src={advertise} alt="buy and sell icon"/>
                 </div>
