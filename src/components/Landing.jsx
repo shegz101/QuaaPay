@@ -189,8 +189,8 @@ const Landing = () => {
                     </p>
 
                     <div className="flex flex-row">
-                        <div className="bg-[#000000] mt-5 h-[70px] text-[#FFFFFF] rounded-[18px] w-[200px] xs:w-[150px] flex items-center justify-center pr-2 pl-2">
-                            <button className="text-[18px] xs:text-[12px] font-semibold xt:pr-2" disabled>Download app</button>
+                        <div className="bg-[#000000] mt-5 h-[70px] text-[#FFFFFF] rounded-[18px] w-[200px] flex items-center justify-center pr-2 pl-2">
+                            <button className="text-[18px] font-semibold pr-2" disabled>Download app</button>
                             <p className="bg-[#FFFFFF] rounded-full h-4 w-4 mt-1 ml-8"></p>
                         </div>
 
