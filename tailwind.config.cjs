@@ -9,6 +9,9 @@ module.exports = {
       'xs': {'min': '0px', 'max': '639px'},
       // => @media (min-width: 0px and max-width: 639px) { ... }
 
+      'xt': {'min': '640px'},
+      // => @media (min-width: 640px) { ... }
+
       'sm': {'min': '640px', 'max': '767px'},
       // => @media (min-width: 640px and max-width: 767px) { ... }
 

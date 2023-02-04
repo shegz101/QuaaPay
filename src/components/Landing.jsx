@@ -4,6 +4,7 @@ import Faq from "./Faq";
 import Densin1 from "../assets/densin1.png";
 import Densin2 from "../assets/dIagonalicon2.png";
 import Densin3 from "../assets/diagonalicon3.png";
+import MobDensin from "../assets/mob-densin.png";
 import navigator from "../assets/brokendash.png";
 import mobilescreen from "../assets/mobilesample.png";
 import influencer from "../assets/influencer.gif";
@@ -18,19 +19,23 @@ const Landing = () => {
     return (
         <div>
             <Header/>
-            <div className="flex flex-row">
+            <div className="flex flex-row xs:flex-col Xs-w-[90%] xs:ml-[4%] xs:mr-[2%]">
                 <div className="flex flex-row">
-                    <div className="mt-20 w-[500px]">
+                    <div className="mt-20 w-[500px] xs:hidden">
                         <img className="" src={Densin1} alt="Densin"/>
                     </div>
 
-                    <div className="mt-[180px] flex flex-col">
-                        <div className="text-[36px] font-black text-[#000000] leading-9">
-                            <p>We help Advertise,</p> 
-                            <p>Influence, <span className="text-[#0014CC]">Pay</span>, Receive, and Sell.</p>
+                    <div className="mt-[180px] xs:mt-[100px] flex flex-col">
+                        <div className="flex flex-row xs:w-[100%] space-x-2">
+                            <div className="text-[36px] xs:text-[26px] font-black text-[#000000] leading-9 xs:items-center xs:w-[95%]">
+                                <p className="xs:text-[38px] block xs:leading-[50px]">We help <span>Advertise, Influence, <span className="text-[#0014CC]">Pay</span>,</span> Receive, and Sell.</p> 
+                            </div>
+                            <div className="xt:hidden xs:hidden  mt-[-50px]">
+                                <img src={MobDensin} alt="densin-3" className=""/>
+                            </div>
                         </div>
                         <div className="w-[90%] leading-6 pt-5 font-normal">
-                            <p className="text-[20px]">Quaapay can be best described as an online money-making 
+                            <p className="text-[20px] xs:text-[1rem]">Quaapay can be best described as an online <strong>money-making </strong>
                             strategy created as a marketplace for every individual 
                             around the globe to become an influencer 
                             by helping brands, companies, and advertisers 
@@ -38,8 +43,8 @@ const Landing = () => {
                             </p>
                         </div>
                         <div className="flex flex-row">
-                            <div className="bg-[#000000] mt-5 h-[70px] text-[#FFFFFF] rounded-[18px] w-[200px] flex flex-row items-center justify-center pr-2 pl-2">
-                                <button className="text-[18px] font-semibold pr-2" disabled>Start advertising</button>
+                            <div className="bg-[#000000] mt-5 h-[70px] text-[#FFFFFF] rounded-[18px] w-[200px] xs:w-[150px] flex flex-row items-center justify-center pr-2 pl-2">
+                                <button className="text-[18px] xs:text-[12px] font-semibold pr-2" disabled>Start advertising</button>
                                 <p className="bg-[#FFFFFF] rounded-full h-4 w-4 mt-1"></p>
                             </div>
 
@@ -52,21 +57,21 @@ const Landing = () => {
                                 </div>
                             </div>
 
-                            <div className="rotate-45">
+                            <div className="rotate-45 xs:hidden">
                                 <img src={Densin3} alt="densin-3" className="justify-end"/>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div className="flex flex-row mr-[100px]">
-                    <div className="flex flex-row mt-[130px]">
-                        <div className="">
+                <div className="xt:flex xt:mr-[100px] xs:items-center">
+                    <div className="flex mt-[130px] xs:mt-[60px]">
+                        <div className="xs:mr-[2.5%]">
                             <img src={mobilescreen} className="w-[1400px]" alt="Screen sample"/>
                         </div>
                     </div>
 
-                    <div className="mt-[130px] w-[300px]">
+                    <div className="mt-[130px] w-[300px] xs:hidden">
                         <img src={Densin2} alt="debsin 2"/>
                     </div>
                 </div>
@@ -74,7 +79,7 @@ const Landing = () => {
             
             {/* First Download App Segment */}
             <div className="mt-[40px] pt-10 bg-[#4460F4] font-black text-[#FFFFFF] items-center text-center h-[250px]">
-                <h1 className="text-[30px]">Download Our App On The App Store Or Play Store</h1> 
+                <h1 className="text-[30px] xs:text-[20px]">Download Our App On The App Store Or Play Store</h1> 
                 <p>Begin to use quaapay wallet</p>
                 <div className="items-center flex flex-row mt-[40px] justify-center space-x-2">
                     <img src={google} alt="Google play store"/>
