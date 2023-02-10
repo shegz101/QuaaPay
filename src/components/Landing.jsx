@@ -7,6 +7,7 @@ import Densin3 from "../assets/diagonalicon3.png";
 import MobDensin from "../assets/mob-densin.png";
 import navigator from "../assets/brokendash.png";
 import mobilescreen from "../assets/mobilesample.png";
+import affiliteLogo from "../assets/Affilite.png";
 import influencer from "../assets/influencer.gif";
 import buysell from "../assets/buyandsell.gif";
 import advertise from "../assets/advertisement.gif";
@@ -19,8 +20,8 @@ const Landing = () => {
     return (
         <div>
             <Header/>
-            <div className="flex flex-row xs:flex-col Xs:w-[95%] xs:ml-[5%] xs:mr-[3.5%]">
-                <div className="flex flex-row">
+            <div className="flex xs:flex-col Xs:w-[95%] w-full xs:ml-[5%] xs:mr-[3.5%]">
+                <div className="flex">
                     <div className="mt-20 w-[500px] xs:hidden">
                         <img className="" src={Densin1} alt="Densin"/>
                     </div>
@@ -35,7 +36,7 @@ const Landing = () => {
                             </div>
                         </div>
                         <div className="w-[90%] leading-6 pt-5 font-normal">
-                            <p className="text-[20px] xs:text-[1rem]">Quaapay can be best described as an online <strong>money-making </strong>
+                            <p className="text-[16px] xs:text-[1rem]">Quaapay can be best described as an online <strong>money-making </strong>
                             strategy created as a marketplace for every individual 
                             around the globe to become an influencer 
                             by helping brands, companies, and advertisers 
@@ -61,18 +62,22 @@ const Landing = () => {
                                 <img src={Densin3} alt="densin-3" className="justify-end"/>
                             </div>
                         </div>
+
+                        <div>
+                            <img src={affiliteLogo} alt="affilte Logo" className="mt-[-90px]"/>
+                        </div>
                     </div>
                 </div>
 
                 <div className="xt:flex xt:mr-[100px] xs:items-center">
                     <div className="flex mt-[130px] xs:mt-[60px]">
                         <div className="xs:mr-[2.5%]">
-                            <img src={mobilescreen} className="w-[1400px]" alt="Screen sample"/>
+                            <img src={mobilescreen} className="w-[1200px]" alt="Screen sample"/>
                         </div>
                     </div>
 
-                    <div className="mt-[130px] xs:mt-[2px] xs:ml-[-20px] w-[300px]">
-                        <img src={Densin2} className="rotate-45 xs:w-[40px]" alt="debsin 2"/>
+                    <div className="mt-[150px] xs:mt-[2px] ml-10 xs:ml-[-20px] w-[250px]">
+                        <img src={Densin2} className="rotate-45 xs:w-[40px]" alt="densin 2"/>
                     </div>
                 </div>
             </div>
