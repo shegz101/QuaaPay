@@ -3,7 +3,7 @@ import Landing from './components/Landing';
 
 function App() {
   return (
-    <div className='overflow-x-hidden mt-5'>
+    <div className='overflow-x-hidden'>
       <Landing/>
     </div>
   )

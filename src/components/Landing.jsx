@@ -42,7 +42,7 @@ const Landing = () => {
                             influence other people to use their product or service.
                             </p>
                         </div>
-                        <div className="flex flex-row">
+                        <div className="flex">
                             <div className="bg-[#000000] mt-5 h-[70px] text-[#FFFFFF] rounded-[18px] w-[200px] xs:w-[150px] flex items-center justify-center pr-2 pl-2">
                                 <button className="text-[18px] xs:text-[12px] font-semibold pr-2" disabled>Start advertising</button>
                                 <p className="bg-[#FFFFFF] rounded-full h-4 w-4 mt-1"></p>

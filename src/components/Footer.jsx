@@ -13,7 +13,7 @@ const Footer = () => {
                 </div>
 
                 {/* column 2 Footer */}
-                <div className="cursor-pointer font-black flex flex-col w-[90%] xs:mt-6">
+                <div className="cursor-pointer font-black flex flex-col w-[90%] xs:mt-2">
                     {/* Row 1 Column 2 Footer */}
                     <div className="grid grid-cols-5 xs:flex xs:flex-col xt:gap-[100px] xs:space-y-6 mt-6">
                         <div>
