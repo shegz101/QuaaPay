@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./Header";
-import Faq from "./Faq";
+import Ama from "./Ama";
 import Densin1 from "../assets/densin1.png";
 import Densin2 from "../assets/dIagonalicon2.png";
 import Densin3 from "../assets/diagonalicon3.png";
@@ -64,15 +64,15 @@ const Landing = () => {
                         </div>
 
                         <div>
-                            <img src={affiliteLogo} alt="affilte Logo" className="mt-[-90px]"/>
+                            <img src={affiliteLogo} alt="affilte Logo" className="xt:mt-[-90px]"/>
                         </div>
                     </div>
                 </div>
 
                 <div className="xt:flex xt:mr-[100px] xs:items-center">
                     <div className="flex mt-[130px] xs:mt-[60px]">
-                        <div className="xs:mr-[2.5%]">
-                            <img src={mobilescreen} className="w-[1200px]" alt="Screen sample"/>
+                        <div className="xs:mr-[3.5%]">
+                            <img src={mobilescreen} className="w-[1200px] xs:w-[95%]" alt="Screen sample"/>
                         </div>
                     </div>
 
@@ -164,7 +164,7 @@ const Landing = () => {
                     <div className="flex">
                         <div className="flex mt-14">
                             <div>
-                                <p className="text-[12px] mt-[-9px] font-bold">Send cash</p>
+                                <p className="text-[12px] mt-[-9px] font-bold">Send</p>
                             </div>
                             <div className="">
                                 <img src={navigator} className="text-[#FFFFFF] w-12 bg-white z-20" alt="navigator"/>
@@ -204,7 +204,7 @@ const Landing = () => {
                                 <img src={navigator} className="text-[#FFFFFF] w-12 bg-white ml-4" alt="navigator"/>
                             </div>
                             <div>
-                                <p className="text-[12px] mt-[-9px] ml-1 font-bold">Send cash</p>
+                                <p className="text-[12px] mt-[-9px] ml-1 font-bold">Send</p>
                             </div>
                         </div>
                     </div>
@@ -214,7 +214,7 @@ const Landing = () => {
                     <img src={cash} alt="buy and sell icon"/>
                 </div>
             </div>
-            <Faq/>
+            <Ama/>
 
             {/* Second Download App Segment */}
             <div className="mt-[80px] xs:mt-[5px] pt-10 xs:pt-5 bg-[#8402C0] font-black text-[#FFFFFF] items-center text-center h-[250px] xs:h-[200px]">

@@ -1,7 +1,7 @@
 import React from "react";
 import ask from "../assets/ask.png";
 
-const Faq = () => {
+const Ama = () => {
     return (
         <div className="flex flex-col items-center xs:mb-5">
             <div className="text-[#000000] font-black text-[45px] xs:text-[20px] xs:mt-20 text-center xs:leading-6 leading-10">
@@ -21,7 +21,7 @@ const Faq = () => {
                         <button className="bg-[#000000] text-[#FFFFFF] rounded-[20px] h-full w-[30%] xs:hidden">
                             send
                         </button>
-                        <p className="xt:hidden text-[#000000] font-bold space-x-2 text-[25px] text-center pl-5">ask ?</p>
+                        <p className="xt:hidden text-[#000000] font-bold space-x-2 text-[25px] text-center">ask ?</p>
                     </div>
                 </header>
             </div>
@@ -29,4 +29,4 @@ const Faq = () => {
     )
 }
 
-export default Faq;
+export default Ama;
