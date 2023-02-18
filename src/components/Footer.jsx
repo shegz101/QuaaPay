@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="flex xs:flex-col w-full xt:space-x-[100px]">
                 {/* column 1 Footer */}
                 <div className="w-[10%] xs:w-[90%] xs:ml-[-3%]">
-                    <img className='h-10 w-[100px] text-[#000000] mt-[-10px]' src={logo} alt="QuaaPay Logo"/>
+                    <img className='h-10 w-[100px] text-[#000000]' src={logo} alt="QuaaPay Logo"/>
                 </div>
 
                 {/* column 2 Footer */}
