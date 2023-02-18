@@ -17,11 +17,11 @@ const Faq = () => {
                 }}>
                     <div className="flex justify-between xs:justify-center h-16 ask-input xs:text-center 
                     items-center z-20 w-[80%] xs:w-[90%] ml-[10%] mr-[10%] xs:mr-[5%] xs:ml-[5%] absolute bg-[#FFFFFF] rounded-[20px]">
-                        <input type="text" placeholder="Ask us a question?" className="xs:hidden h-full outline-none rounded-l-[20px] w-70%]" />
+                        <input type="text" placeholder="Ask us a question?" className="ama-input xs:hidden h-full outline-none rounded-l-[20px] w-[70%] text-[#000000]" />
                         <button className="bg-[#000000] text-[#FFFFFF] rounded-[20px] h-full w-[30%] xs:hidden">
                             send
                         </button>
-                        <p className="xt:hidden text-[#000000] font-bold space-x-2 text-[25px] text-center">ask ?</p>
+                        <p className="xt:hidden text-[#000000] font-bold space-x-2 text-[25px] text-center pl-5">ask ?</p>
                     </div>
                 </header>
             </div>

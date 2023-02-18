@@ -7,8 +7,6 @@ const Header = () => {
     const scrollPosition = useScrollPosition();
 
     const nav_position = scrollPosition > 0 ? 'shadow-lg' : 'shadow-none';
-
-    // console.log(scrollPosition);
     
     return (
         <div className={`${nav_position} transition-shadow bg-[#ffffff] flex justify-between z-30 w-full px-16 pt-4 pb-4 space-x-2 fixed`}>
