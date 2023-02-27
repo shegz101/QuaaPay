@@ -1,42 +1,51 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from "../assets/footer-logo.png";
-import { GiHamburgerMenu } from "react-icons/gi";
 import { useScrollPosition } from './useScrollPosition';
 
 const Header = () => {
     const scrollPosition = useScrollPosition();
 
     const nav_position = scrollPosition > 0 ? 'shadow-lg' : 'shadow-none';
+    let nav_links = [
+        {name:"Home", link:"/"},
+        {name:"Features", link:"/"},
+        {name:"Our Community", link:"/"},
+        {name:"Payment Gateway", link:"/"},
+        {name:"Our Framework", link:"/"},
+    ];
+
+    let [open, setOpen] = useState(false);
     
     return (
-        <div className={`${nav_position} transition-shadow bg-[#ffffff] xs:h-16 flex justify-between z-30 w-full px-16 xs:px-[4px] pt-4 pb-4 space-x-2 fixed`}>
-            {/* Quaapay Logo */}
-            <div className='mt-[-10px]'>
-                <img className='h-14 xs:h-12 bg-transparent' src={logo} alt="logo"/>
-            </div>
+        <div className={`${nav_position} transition-shadow bg-[#ffffff] xs:h-16 z-30 w-full px-16 xs:px-[4px] pt-4 pb-4 fixed xs:absolute`}>
+            {/*Big Screens Navbar*/}
+            <div className="xt:flex xt:justify-between xt:space-x-2">
+                {/* Quaapay Logo */}
+                <div className='flex justify-between'>
+                    <img className='h-14 xs:h-12 bg-transparent mt-[-10px]' src={logo} alt="logo"/>
+                    <div className="xs:block xt:hidden pr-2 text-3xl top-8" onClick={() => setOpen(!open)}>
+                        <ion-icon name={open ? 'close' : 'menu'} className='cursor-pointer'> </ion-icon>
+                    </div>
+                </div>
 
-            {/* Nav Links */}
-            <div className='mt-3 xs:hidden'>
-                <nav className="text-[#000000] font-semibold">
-                    <ul className='xs:hidden flex flex-row space-x-10 text-[15px] cursor-pointer font-semibold'>
-                        <li className='hover:opacity-60'>Home</li>
-                        <li className='hover:opacity-60'>Features</li>
-                        <li className='hover:opacity-60'>Our Community</li>
-                        <li className='hover:opacity-60'>Payment Gateway</li>
-                        <li className='hover:opacity-60'>Our Framework</li>
-                    </ul>
-                </nav>
-            </div>
-
-            <div className='xs:hidden h-12'>
-                <button className='bg-[#0707B0] h-full rounded-[5px] w-40 opacity-95 text-[14px] text-[#FFFFFF]'>Download app</button>
-            </div>
-
-            <div className="xs:block xt:hidden pr-2">
-                <GiHamburgerMenu className='text-[#000000] h-10 w-8'/>
+                <div className='flex xt:space-x-40 xs:w-full'>
+                    {/* Nav Links */}
+                    <nav className="text-[#000000] font-semibold xs:w-[100%] xs:items-center">
+                        <ul className={`xs:flex-col flex xt:flex-row xt:space-x-10 xs:bg-[#e7e2e2] xs:text-center xs:py-5 z-[-1] xs:items-center xs:space-y-5 text-[15px] xs:text-[20px] cursor-pointer font-semibold xt:w-auto w-full transition-all duration-500 ease-in ${open ? 'xs:mt-5 opacity-100' : 'xs:mt-[-500px]'} xt:opacity-100`}>
+                            {
+                                nav_links.map((link) => (
+                                    <li key={link.name}>
+                                        <a className='hover:opacity-60' href={link.link}>{link.name}</a>
+                                    </li>
+                                ))
+                            }
+                            <button className='bg-[#0707B0] hover:bg-[#0707B0]-600 h-11 mt-[-10px] rounded-[5px] duration-500 w-40 opacity-95 text-[14px] text-[#FFFFFF]'>Download app</button>
+                        </ul>
+                    </nav>
+                </div>     
             </div>
         </div>
-    )
+    ) 
 }
 
 export default Header;

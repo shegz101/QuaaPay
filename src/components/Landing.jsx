@@ -29,7 +29,7 @@ const Landing = () => {
                     <div className="mt-[180px] xs:mt-[100px] flex flex-col">
                         <div className="flex flex-row xs:w-[100%] space-x-2">
                             <div className="text-[36px] xs:text-[26px] font-black text-[#000000] leading-9 xs:items-center xs:w-[95%]">
-                                <p className="xs:text-[38px] block xs:leading-[50px]">We help <span>Advertise, Influence, <span className="text-[#0014CC]">Pay</span>,</span> Receive, and Sell.</p> 
+                                <p className="xs:text-[30px] block xs:leading-[35px]">We help <span>Advertise, Influence, <span className="text-[#0014CC]">Pay</span>,</span> Receive, and Sell.</p> 
                             </div>
                             <div className="xt:hidden xs:hidden  mt-[-50px]">
                                 <img src={MobDensin} alt="densin-3" className=""/>
