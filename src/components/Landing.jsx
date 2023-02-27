@@ -36,7 +36,7 @@ const Landing = () => {
                             </div>
                         </div>
                         <div className="w-[90%] leading-6 pt-5 font-normal">
-                            <p className="text-[16px] xs:text-[1rem]">Quaapay can be best described as an online <strong>money-making </strong>
+                            <p className="text-[14px] xs:text-[0.8rem]">Quaapay can be best described as an online <strong>money-making </strong>
                             strategy created as a marketplace for every individual 
                             around the globe to become an influencer 
                             by helping brands, companies, and advertisers 
@@ -64,7 +64,7 @@ const Landing = () => {
                         </div>
 
                         <div>
-                            <img src={affiliteLogo} alt="affilte Logo" className="xt:mt-[-90px]"/>
+                            <img src={affiliteLogo} alt="affilte Logo" className="xt:mt-[-80px] xs:mt-[20px]"/>
                         </div>
                     </div>
                 </div>
