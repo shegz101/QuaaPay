@@ -23,7 +23,7 @@ const Header = () => {
                 {/* Quaapay Logo */}
                 <div className='flex justify-between'>
                     <img className='h-14 xs:h-12 bg-transparent mt-[-8px]' src={logo} alt="logo"/>
-                    <div className="xs:block xt:hidden pr-2 text-3xl mt-[8px]" onClick={() => setOpen(!open)}>
+                    <div className="xs:block xt:hidden pr-2 text-3xl mt-[6px]" onClick={() => setOpen(!open)}>
                         <ion-icon name={open ? 'close' : 'menu'} className='cursor-pointer'> </ion-icon>
                     </div>
                 </div>
