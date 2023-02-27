@@ -17,13 +17,13 @@ const Header = () => {
     let [open, setOpen] = useState(false);
     
     return (
-        <div className={`${nav_position} transition-shadow bg-[#ffffff] xs:h-16 z-30 w-full px-16 xs:px-[4px] pt-4 pb-4 fixed xs:absolute`}>
+        <div className={`${nav_position} transition-shadow bg-[#ffffff] xs:h-16 z-30 w-full px-16 xs:px-[4px] pt-4 pb-4 fixed`}>
             {/*Big Screens Navbar*/}
             <div className="xt:flex xt:justify-between xt:space-x-2">
                 {/* Quaapay Logo */}
                 <div className='flex justify-between'>
                     <img className='h-14 xs:h-12 bg-transparent mt-[-8px]' src={logo} alt="logo"/>
-                    <div className="xs:block xt:hidden pr-2 text-3xl mt-[5px]" onClick={() => setOpen(!open)}>
+                    <div className="xs:block xt:hidden pr-2 text-3xl mt-[8px]" onClick={() => setOpen(!open)}>
                         <ion-icon name={open ? 'close' : 'menu'} className='cursor-pointer'> </ion-icon>
                     </div>
                 </div>
