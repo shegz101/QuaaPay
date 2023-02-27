@@ -22,8 +22,8 @@ const Header = () => {
             <div className="xt:flex xt:justify-between xt:space-x-2">
                 {/* Quaapay Logo */}
                 <div className='flex justify-between'>
-                    <img className='h-14 xs:h-12 bg-transparent mt-[-10px]' src={logo} alt="logo"/>
-                    <div className="xs:block xt:hidden pr-2 text-3xl top-8" onClick={() => setOpen(!open)}>
+                    <img className='h-14 xs:h-12 bg-transparent mt-[-8px]' src={logo} alt="logo"/>
+                    <div className="xs:block xt:hidden pr-2 text-3xl mt-[5px]" onClick={() => setOpen(!open)}>
                         <ion-icon name={open ? 'close' : 'menu'} className='cursor-pointer'> </ion-icon>
                     </div>
                 </div>
