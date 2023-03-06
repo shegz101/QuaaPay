@@ -8,6 +8,8 @@ import MobDensin from "../assets/mob-densin.png";
 import navigator from "../assets/brokendash.png";
 import mobilescreen from "../assets/mobilesample.png";
 import affiliteLogo from "../assets/Affilite.png";
+import vernsaLogo from "../assets/vernsa.jpeg";
+import vernsaImg from "../assets/vernsa.png";
 import influencer from "../assets/influencer.gif";
 import buysell from "../assets/buyandsell.gif";
 import advertise from "../assets/advertisement.gif";
@@ -36,7 +38,7 @@ const Landing = () => {
                             </div>
                         </div>
                         <div className="w-[90%] leading-6 pt-5 font-normal">
-                            <p className="text-[14px] xs:text-[0.8rem]">Quaapay can be best described as an online <strong>money-making </strong>
+                            <p className="text-[16px] xs:text-[0.8rem]">Quaapay can be best described as an online <strong>money-making </strong>
                             strategy created as a marketplace for every individual 
                             around the globe to become an influencer 
                             by helping brands, companies, and advertisers 
@@ -63,8 +65,9 @@ const Landing = () => {
                             </div>
                         </div>
 
-                        <div>
-                            <img src={affiliteLogo} alt="affilte Logo" className="xt:mt-[-80px] xs:mt-[20px]"/>
+                        <div className="flex w-[200px]">
+                            <img src={affiliteLogo} alt="affilte Logo" className="h-[50px] xt:mt-[-80px] xs:mt-[20px]"/> 
+                            <img src={vernsaImg} alt="affilte Logo" className="w-[100px] h-[40px] xt:mt-[-80px] xs:mt-[20px]"/>
                         </div>
                     </div>
                 </div>
