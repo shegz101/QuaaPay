@@ -65,9 +65,11 @@ const Landing = () => {
                             </div>
                         </div>
 
+                        <p className="xt:hidden font-black text-[gray] pt-4">Our Partners 🤝</p>
+
                         <div className="flex w-[200px]">
-                            <img src={affiliteLogo} alt="affilte Logo" className="h-[50px] xt:mt-[-80px] xs:mt-[20px]"/> 
-                            <img src={vernsaImg} alt="affilte Logo" className="w-[100px] h-[40px] xt:mt-[-80px] xs:mt-[20px]"/>
+                            <img src={affiliteLogo} alt="affilte Logo" className="h-[50px] xt:mt-[-90px] xs:mt-[10px]"/> 
+                            <img src={vernsaImg} alt="affilte Logo" className="w-[100px] h-[40px] xt:mt-[-90px] xs:mt-[10px]"/>
                         </div>
                     </div>
                 </div>
